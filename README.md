@@ -28,6 +28,7 @@ To replicate the results of this project, install the following dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Dependencies include:
 
@@ -57,6 +58,7 @@ This step includes handling missing values, feature engineering, and splitting t
 
 ```bash
 python src/data_preprocessing.py
+```
 
 ### Step 2: Model Training  
 
@@ -65,6 +67,7 @@ The `model.py` script trains a variety of models such as Linear Regression, Rand
 
 ```bash
 python src/model.py
+```
 
 ### Step 3: Model Evaluation  
 
@@ -72,6 +75,7 @@ Once the models are trained, run the following command to evaluate their perform
 
 ```bash
 python src/model.py --evaluate
+```
 
 ### Step 4: Forecasting  
 
@@ -80,6 +84,7 @@ You will need to pass the data for prediction and specify which model to use.
 
 ```bash
 python src/prediction.py --model xgboost --input new_data.csv
+```
 
 This will output the forecasted air quality values for the provided input.
 
